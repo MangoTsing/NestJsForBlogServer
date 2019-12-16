@@ -4,7 +4,8 @@
 
 ## 首要Todo
 <p align="center">先和前端页面连在一起，目前前后端分离</p>
-
+## 目前进展
+<p align="center">完成数据库的连接，准备好展示用的restfulApi服务，连接MongoDb</p>
 ## Installation
 
 ```bash
