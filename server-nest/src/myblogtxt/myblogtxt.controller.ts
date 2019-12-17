@@ -1,9 +1,8 @@
-import { Controller, Post, Body, Get } from '@nestjs/common';
+import { Controller, Post, Body, Get, Param } from '@nestjs/common';
 import { MyblogtxtService } from './myblogtxt.service';
-import { CreateBlogDto } from './dto/create-blog.dto';
+import { CreateBlogDto, DelBlogDto } from './dto/create-blog.dto';
 
 @Controller('myblogtxt')
-
 export class MyblogtxtController {
   constructor(private readonly MyblogtxtService: MyblogtxtService) {
 
@@ -14,6 +13,13 @@ export class MyblogtxtController {
   }
   @Post()
   create(@Body() createBlogsDto: CreateBlogDto) {
-    this.MyblogtxtService.create(createBlogsDto);
+    this.MyblogtxtService.create(createBlogsDto).then((res)=>{
+      return res;
+    });
+  }
+
+  @Post('/del')
+  getDel(@Body() delBlogDto: DelBlogDto) {
+    this.MyblogtxtService.delTitle(delBlogDto)
   }
 }

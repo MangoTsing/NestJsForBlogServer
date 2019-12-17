@@ -1,4 +1,269 @@
 
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3455   - [39m2019-12-11 11:26:32   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +17ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3513   - [39m2019-12-11 11:27:30   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3657   - [39m2019-12-11 12:11:44   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_32_49_891Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_32_59_155Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_33_09_373Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_33_13_178Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_33_31_774Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_33_40_780Z-debug.log
+npm ERR! missing script: dev
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /root/.npm/_logs/2019-12-11T04_33_52_922Z-debug.log
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +48ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3822   - [39m2019-12-11 12:35:16   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile:id, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3846   - [39m2019-12-11 12:35:34   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/root/devspace/server-nest/node_modules/@nestjs/platform-express/adapters/express-adapter.js:44:32)
+    at NestApplication.listen (/root/devspace/server-nest/node_modules/@nestjs/core/nest-application.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/root/devspace/server-nest/dist/main.js:7:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +49ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3901   - [39m2019-12-11 12:36:35   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 3908   - [39m2019-12-11 12:36:39   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/root/devspace/server-nest/node_modules/@nestjs/platform-express/adapters/express-adapter.js:44:32)
+    at NestApplication.listen (/root/devspace/server-nest/node_modules/@nestjs/core/nest-application.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/root/devspace/server-nest/dist/main.js:7:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +5ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 3975   - [39m2019-12-11 12:54:16   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+1
+1
+
+> server-nest@0.0.1 start /root/devspace/server-nest
+> nest start
+
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RouterExplorer] [39m[32mMapped {/profile/:id, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[RouterExplorer] [39m[32mMapped {/search, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 4006   - [39m2019-12-11 12:55:23   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/root/devspace/server-nest/node_modules/@nestjs/platform-express/adapters/express-adapter.js:44:32)
+    at NestApplication.listen (/root/devspace/server-nest/node_modules/@nestjs/core/nest-application.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/root/devspace/server-nest/dist/main.js:7:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
+1
+id=1
+
+> server-nest@0.0.1 start:prod /root/devspace/MyBlogServerNestJs/server-nest
+> node dist/main
+
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +51ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+(node:15353) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:15353) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +70ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +11ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[InstanceLoader] [39m[32mBlogModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 15353   - [39m12/14/2019, 4:55:27 PM   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+
 > server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
 > nest start
 
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +44ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +0ms[39m
+(node:15387) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:15387) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +54ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +7ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[InstanceLoader] [39m[32mBlogModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +7ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 15387   - [39m12/14/2019, 4:55:57 PM   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::80
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/root/devspace/MyBlogServerNestJs/server-nest/node_modules/@nestjs/platform-express/adapters/express-adapter.js:44:32)
+    at NestApplication.listen (/root/devspace/MyBlogServerNestJs/server-nest/node_modules/@nestjs/core/nest-application.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/root/devspace/MyBlogServerNestJs/server-nest/dist/main.js:7:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 80
+}
