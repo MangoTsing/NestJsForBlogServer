@@ -9,7 +9,7 @@ import { MyblogtxtModule } from './myblogtxt/myblogtxt.module';
 @Module({
   imports: [MongooseModule.forRoot('mongodb://localhost:27017/blog'),BlogModule,MyblogtxtModule,
   ServeStaticModule.forRoot({
-    rootPath: join(__dirname, '..', 'client'),
+    rootPath: join(__dirname, '..', 'client/dist'),
   })],
   controllers: [AppController],
   providers: [AppService],
