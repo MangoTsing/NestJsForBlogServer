@@ -1,6 +1,7 @@
-import { Controller, Post, Body, Get, Param } from '@nestjs/common';
+import { Controller, Post, Body, Get, Req } from '@nestjs/common';
 import { MyblogtxtService } from './myblogtxt.service';
 import { CreateBlogDto, DelBlogDto } from './dto/create-blog.dto';
+import { Request } from 'express'
 
 @Controller('myblogtxt')
 export class MyblogtxtController {
@@ -17,7 +18,10 @@ export class MyblogtxtController {
       return res;
     });
   }
-
+  @Get('/detail')
+  blogDetail(@Req() req:Request) {
+    return this.MyblogtxtService.blogDetail(req.query.title)
+  }
   @Post('/del')
   getDel(@Body() delBlogDto: DelBlogDto) {
     this.MyblogtxtService.delTitle(delBlogDto)

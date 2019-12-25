@@ -2,7 +2,7 @@ import { Injectable } from '@nestjs/common';
 import { InjectModel } from '@nestjs/mongoose';
 import { MyBlogTxt } from './interfaces/myblogtxt.interface';
 import { Model } from 'mongoose';
-import { CreateBlogDto, DelBlogDto } from './dto/create-blog.dto';
+import { CreateBlogDto, DelBlogDto, BlogDetail } from './dto/create-blog.dto';
 
 @Injectable()
 export class MyblogtxtService {
@@ -17,6 +17,10 @@ export class MyblogtxtService {
   //获取所有blogs&
   async findAll(): Promise<MyBlogTxt[]> {
     return await this.blogModel.find();
+  }
+  //获取blog详情
+  async blogDetail(str: BlogDetail): Promise<MyBlogTxt> {
+   return await this.blogModel.find({title:str}); 
   }
   //传入标题删除blog
   async delTitle(delTitleDto: DelBlogDto): Promise<MyBlogTxt> {

@@ -271,3 +271,48 @@ Emitted 'error' event on Server instance at:
 > server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
 > nest start
 
+
+> server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
+> nest start
+
+[32m[Nest] 17864   - [39m2019-12-25 12:33:50   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +47ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +0ms[39m
+(node:17864) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:17864) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +57ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mBlogModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[InstanceLoader] [39m[32mMyblogtxtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RoutesResolver] [39m[32mMyblogtxtController {/myblogtxt}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[RouterExplorer] [39m[32mMapped {/del, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 17864   - [39m2019-12-25 12:33:51   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+events.js:187
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE: address already in use :::8360
+    at Server.setupListenHandle [as _listen2] (net.js:1301:14)
+    at listenInCluster (net.js:1349:12)
+    at Server.listen (net.js:1437:7)
+    at ExpressAdapter.listen (/root/devspace/MyBlogServerNestJs/server-nest/node_modules/@nestjs/platform-express/adapters/express-adapter.js:44:32)
+    at NestApplication.listen (/root/devspace/MyBlogServerNestJs/server-nest/node_modules/@nestjs/core/nest-application.js:143:26)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async bootstrap (/root/devspace/MyBlogServerNestJs/server-nest/dist/main.js:9:5)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (net.js:1328:8)
+    at processTicksAndRejections (internal/process/task_queues.js:80:21) {
+  code: 'EADDRINUSE',
+  errno: 'EADDRINUSE',
+  syscall: 'listen',
+  address: '::',
+  port: 8360
+}

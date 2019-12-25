@@ -6,7 +6,15 @@ export class CreateBlogDto {
   readonly tags: string;
 
   readonly summary: string;
+
+  readonly content: string;
+
+  readonly coverImg: string;
+
 }
 export class DelBlogDto {
-  readonly title: string
+  readonly title: string;
+}
+export class BlogDetail {
+  readonly id: string;
 }
