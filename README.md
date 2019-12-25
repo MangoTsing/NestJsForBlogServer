@@ -10,12 +10,22 @@
 * [x] 设计blog库，建立user,blog,myblogtxt等tables
 * [x] 连接mongodb,schemas
 * [x] 增加拦截器，处理数据格式
+* [x] 需要增加blog详情页接口
 * [ ] 增加过滤器，处理数据错误统一格式
-* [ ] 需要增加blog详情页接口，创建详情页的前端管理页面
+* [ ] 创建博客的前端管理页面
+
 
 ## 目前用到的技术
 * [x] nest.js + typescript
 * [x] vue + axios + iview + nuxt.js -> ssr
+
+## 目前数据库的格式
+
+- blog
+ - user
+ - myblogtxt
+
+<p align="center">数据都存放在myblogtxt，按需存取</p>
 
 
 ## Installation
