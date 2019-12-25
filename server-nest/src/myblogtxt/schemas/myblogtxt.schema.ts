@@ -6,6 +6,8 @@ export const MyblogtxtSchema = new mongoose.Schema({
   tags: String,
   summary: String,
   content: String,
-  coverImg: String
+  coverImg: String,
+  star: Number,
+  count: Number
 },
 { collection: 'myblogtxt', versionKey: false });

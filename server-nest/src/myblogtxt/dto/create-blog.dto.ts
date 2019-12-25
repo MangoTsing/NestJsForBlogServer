@@ -11,6 +11,9 @@ export class CreateBlogDto {
 
   readonly coverImg: string;
 
+  readonly star: number;
+  
+  readonly count: number;
 }
 export class DelBlogDto {
   readonly title: string;
