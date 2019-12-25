@@ -5,6 +5,6 @@ import { TransformInterceptor } from './interceptor/transform.interceptor';
 async function bootstrap() {
   const app = await NestFactory.create(AppModule);
   await app.useGlobalInterceptors(new TransformInterceptor());
-  await app.listen(80);
+  await app.listen(8360);
 }
 bootstrap();

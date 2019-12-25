@@ -267,3 +267,7 @@ Emitted 'error' event on Server instance at:
   address: '::',
   port: 80
 }
+
+> server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
+> nest start
+

@@ -5,6 +5,19 @@
 ## 首要Todo
 <p align="center">先和前端页面连在一起，目前前后端分离</p>
 
+
+### Todo 
+* [x] 设计blog库，建立user,blog,myblogtxt等tables
+* [x] 连接mongodb,schemas
+* [x] 增加拦截器，处理数据格式
+* [ ] 增加过滤器，处理数据错误统一格式
+* [ ] 需要增加blog详情页接口，创建详情页的前端管理页面
+
+## 目前用到的技术
+* [x] nest.js + typescript
+* [x] vue + axios + iview + nuxt.js -> ssr
+
+
 ## Installation
 
 ```bash
@@ -23,17 +36,3 @@ $ npm run start:dev
 # production mode
 $ npm run start:prod
 ```
-
-## Test
-
-```bash
-# unit tests
-$ npm run test
-
-# e2e tests
-$ npm run test:e2e
-
-# test coverage
-$ npm run test:cov
-```
-
