@@ -362,3 +362,53 @@ Emitted 'error' event on Server instance at:
   address: '::',
   port: 8360
 }
+
+> server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
+> nest start
+
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +142ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +0ms[39m
+(node:23357) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:23357) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +79ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +8ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mBlogModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[InstanceLoader] [39m[32mMyblogtxtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +6ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RoutesResolver] [39m[32mMyblogtxtController {/myblogtxt}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/detail, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[RouterExplorer] [39m[32mMapped {/del, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 23357   - [39m2019-12-26 14:30:48   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +35ms[39m
+
+> server-nest@0.0.1 start /root/devspace/MyBlogServerNestJs/server-nest
+> nest start
+
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +39ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mServeStaticModule dependencies initialized[39m[38;5;3m +0ms[39m
+(node:25234) DeprecationWarning: current URL string parser is deprecated, and will be removed in a future version. To use the new parser, pass option { useNewUrlParser: true } to MongoClient.connect.
+(node:25234) DeprecationWarning: current Server Discovery and Monitoring engine is deprecated, and will be removed in a future version. To use the new Server Discover and Monitoring engine, pass option { useUnifiedTopology: true } to the MongoClient constructor.
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mMongooseCoreModule dependencies initialized[39m[38;5;3m +51ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +16ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mMongooseModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mBlogModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[InstanceLoader] [39m[32mMyblogtxtModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RoutesResolver] [39m[32mAppController {/}:[39m[38;5;3m +10ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RoutesResolver] [39m[32mBlogController {/blog}:[39m[38;5;3m +0ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RoutesResolver] [39m[32mMyblogtxtController {/myblogtxt}:[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/detail, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[RouterExplorer] [39m[32mMapped {/del, POST} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 25234   - [39m2019-12-26 16:56:53   [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
