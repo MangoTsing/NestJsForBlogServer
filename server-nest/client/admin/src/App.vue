@@ -25,9 +25,9 @@
         <el-input v-model="form.coverImg"></el-input>
         <img style="float:left;width:250px;height:150px;" :src="form.coverImg" alt="img" onerror="this.src='https://pic3.zhimg.com/v2-9874fe4a5b1bd6f3f77cb82bd93c8530_1200x500.jpg'">
       </el-form-item>
-      <el-form-item label="内容">
+      <!-- <el-form-item label="内容">
         <el-input type="textarea" :autosize="{ minRows: 4}" v-model="form.content"></el-input>
-      </el-form-item>
+      </el-form-item> -->
       <el-form-item>
         <el-button type="primary" @click="onSubmit">立即创建</el-button>
       </el-form-item>
@@ -46,6 +46,7 @@
         <input type="submit" value="删除">
     </form> -->
     </div>
+    <mavon-editor v-model="form.content" :toolbars="toolbars" />
   </div>
 </template>
 
@@ -62,7 +63,28 @@ export default {
         coverImg: 'https://pic3.zhimg.com/v2-9874fe4a5b1bd6f3f77cb82bd93c8530_1200x500.jpg',
         star:0,
         count:0
-      }
+      },
+      toolbars: {
+        bold: true, // 粗体
+        italic: true, // 斜体
+        header: true, // 标题
+        underline: true, // 下划线
+        mark: true, // 标记
+        superscript: true, // 上角标
+        quote: true, // 引用
+        ol: true, // 有序列表
+        link: true, // 链接
+        help: true, // 帮助
+        code: true, // code
+        subfield: true, // 是否需要分栏
+        fullscreen: true, // 全屏编辑
+        readmodel: true, // 沉浸式阅读
+        /* 1.3.5 */
+        undo: true, // 上一步
+        trash: true, // 清空
+        /* 1.4.2 */
+        navigation: true // 导航目录
+        }
     }
   },
   methods: {
@@ -70,7 +92,10 @@ export default {
       let data =  Qs.stringify({...this.form});
       axios.post('/myblogtxt',data,{ headers: { 'Content-Type':'application/x-www-form-urlencoded' } })
       .then(res=>{
-        console.log(res)
+        this.$message({
+          type:'success',
+          message: res.data.message
+        })
       })
     }
   },
