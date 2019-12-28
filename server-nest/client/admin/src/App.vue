@@ -23,11 +23,12 @@
       </el-form-item>
       <el-form-item label="封面url">
         <el-input v-model="form.coverImg"></el-input>
-        <img style="float:left;width:250px;height:150px;" :src="form.coverImg" alt="img" onerror="this.src='https://pic3.zhimg.com/v2-9874fe4a5b1bd6f3f77cb82bd93c8530_1200x500.jpg'">
+        <img style="float:left;width:250px;height:150px;" :src="form.coverImg" alt="img" onerror="this.src='https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577553042372&di=1b53a3e96264e884b5489d9a8a5bfda1&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-05-23%2F5b0516c5a9616.jpg'">
       </el-form-item>
-      <!-- <el-form-item label="内容">
-        <el-input type="textarea" :autosize="{ minRows: 4}" v-model="form.content"></el-input>
-      </el-form-item> -->
+      <el-form-item label="内容">
+        <!-- <el-input type="textarea" :autosize="{ minRows: 4}" v-model="form.content"></el-input> -->
+        <mavon-editor v-model="form.content" :toolbars="toolbars" />
+      </el-form-item>
       <el-form-item>
         <el-button type="primary" @click="onSubmit">立即创建</el-button>
       </el-form-item>
@@ -46,7 +47,6 @@
         <input type="submit" value="删除">
     </form> -->
     </div>
-    <mavon-editor v-model="form.content" :toolbars="toolbars" />
   </div>
 </template>
 
@@ -60,7 +60,7 @@ export default {
   data() {
     return {
       form:{
-        coverImg: 'https://pic3.zhimg.com/v2-9874fe4a5b1bd6f3f77cb82bd93c8530_1200x500.jpg',
+        coverImg: 'https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577553042372&di=1b53a3e96264e884b5489d9a8a5bfda1&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2018-05-23%2F5b0516c5a9616.jpg',
         star:0,
         count:0
       },
