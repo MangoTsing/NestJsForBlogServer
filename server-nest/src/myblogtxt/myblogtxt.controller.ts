@@ -22,6 +22,14 @@ export class MyblogtxtController {
   blogDetail(@Req() req:Request) {
     return this.MyblogtxtService.blogDetail(req.query.title)
   }
+  @Get('/poststar')
+  postStar(@Req() req:Request) {
+    return this.MyblogtxtService.postStar(req.query.title)
+  }
+  @Get('/movieList')
+  movieList() {
+    return this.MyblogtxtService.movieList()
+  }
   @Post('/del')
   getDel(@Body() delBlogDto: DelBlogDto) {
     this.MyblogtxtService.delTitle(delBlogDto)

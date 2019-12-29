@@ -21,3 +21,6 @@ export class DelBlogDto {
 export class BlogDetail {
   readonly id: string;
 }
+export class postStar {
+  readonly title: string;
+}
