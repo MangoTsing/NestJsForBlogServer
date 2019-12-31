@@ -3,7 +3,7 @@
 </p>
 
 ## 首要Todo
-<p align="center">目前前后端分离，开发中通过proxy本地代理到服务端端口，之后会把nuxt前端打包成静态化页面放在服务端中，或使用nginx转发服务。j</p>
+<p align="center">目前前后端分离，开发中通过proxy本地代理到服务端端口，之后会把nuxt前端打包成静态化页面放在服务端中，或使用nginx转发服务。</p>
 
 
 ### Todo 
