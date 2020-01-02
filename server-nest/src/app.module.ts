@@ -6,8 +6,9 @@ import { BlogModule } from './blog/blog.module';
 import {ServeStaticModule} from '@nestjs/serve-static'
 import { join } from 'path'
 import { MyblogtxtModule } from './myblogtxt/myblogtxt.module';
+import { TagModule } from './tags/tag.module'
 @Module({
-  imports: [MongooseModule.forRoot('mongodb://localhost:27017/blog'),BlogModule,MyblogtxtModule,
+  imports: [MongooseModule.forRoot('mongodb://localhost:27017/blog'),BlogModule,MyblogtxtModule,TagModule,
   ServeStaticModule.forRoot({
     rootPath: join(__dirname, '..', 'client'),
   })],
