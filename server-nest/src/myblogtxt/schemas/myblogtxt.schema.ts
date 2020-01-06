@@ -3,7 +3,7 @@ import * as mongoose from 'mongoose';
 export const MyblogtxtSchema = new mongoose.Schema({
   title: String,
   author: String,
-  tags: String,
+  tags: Object,
   summary: String,
   content: String,
   coverImg: String,

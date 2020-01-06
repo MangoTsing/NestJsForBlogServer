@@ -3,7 +3,7 @@ export class CreateBlogDto {
 
   readonly author: string;
 
-  readonly tags: string;
+  readonly tags: any;
 
   readonly summary: string;
 
