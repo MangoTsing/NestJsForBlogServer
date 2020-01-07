@@ -11,12 +11,16 @@ export class MyblogtxtService {
   }
   //创建blogs
   async create(createBlogDto: CreateBlogDto): Promise<MyBlogTxt> {
+    createBlogDto.time = new Date().toLocaleString();
+    createBlogDto.pv = 0;
     const createdBlog = new this.blogModel(createBlogDto);
     return await createdBlog.save();
   }
   //获取所有blogs&
   async findAll(): Promise<MyBlogTxt[]> {
-    return await this.blogModel.find();
+    let a = await this.blogModel.find();
+    const arr = a.reverse();
+    return await arr;
   }
   //获取豆瓣电影列表
   async movieList(): Promise<any> {
@@ -62,7 +66,8 @@ export class MyblogtxtService {
   }
   //获取blog详情
   async blogDetail(str: BlogDetail): Promise<MyBlogTxt> {
-   return await this.blogModel.find({title:str}); 
+    await this.blogModel.update({ title: str }, { $inc: {pv:1} }, { multi: false });
+    return await this.blogModel.find({title:str}); 
   }
   //传入标题删除blog
   async delTitle(delTitleDto: DelBlogDto): Promise<MyBlogTxt> {

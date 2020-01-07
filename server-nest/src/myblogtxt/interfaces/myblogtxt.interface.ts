@@ -8,4 +8,6 @@ export interface MyBlogTxt extends Document {
   readonly coverImg: string;
   readonly star: number;
   readonly count: number;
+  readonly time: string;
+  readonly pv: number;
 }

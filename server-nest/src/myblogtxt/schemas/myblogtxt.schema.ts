@@ -8,6 +8,8 @@ export const MyblogtxtSchema = new mongoose.Schema({
   content: String,
   coverImg: String,
   star: Number,
-  count: Number
+  count: Number,
+  time: String,
+  pv: Number
 },
 { collection: 'myblogtxt', versionKey: false });

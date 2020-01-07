@@ -14,6 +14,11 @@ export class CreateBlogDto {
   readonly star: number;
   
   readonly count: number;
+
+  time: string;
+
+  pv: number;
+  
 }
 export class DelBlogDto {
   readonly title: string;
